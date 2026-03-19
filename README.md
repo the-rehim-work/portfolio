@@ -1,20 +1,31 @@
 # Welcome to My Spring Portfolio
-***
 
 ## Task
-TODO - What is the problem? And where is the challenge?
+Build a web application to track an investor's active investments with a starting fund of $10 million USD, supporting CRUD operations, sorting, and fund management.
 
 ## Description
-TODO - How have you solved the problem?
+Spring Boot MVC application using Thymeleaf for server-side rendering and H2 in-memory database. Users can create investments, update investment names, add funds to the pool, view individual investment details, and sort investments by amount or name. A notification toast appears 2 minutes after creating a new investment.
 
 ## Installation
-TODO - How to install your project? npm install? make? make re?
+
+Ensure you have Java 21 installed on your machine. Clone the repository and navigate to the project directory.
+```
+git clone <repository-url>
+cd portfolio
+```
+
+Install dependencies and build the project using the Maven wrapper included in the repository:
+```
+./mvnw clean install
+```
+
+This will download all required dependencies, compile the source code, and package the application into a runnable JAR file located in the `target/` directory.
 
 ## Usage
-TODO - How does it work?
 ```
-./my_project argument1 argument2
+java -jar target/portfolio-0.0.1-SNAPSHOT.jar
 ```
+Then open http://localhost:8080
 
 ### The Core Team
 
