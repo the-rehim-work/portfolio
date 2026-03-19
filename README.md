@@ -1,21 +1,20 @@
 # Welcome to My Spring Portfolio
+***
 
 ## Task
-Build a web application to track an investor's active investments with a starting fund of $10 million USD, supporting CRUD operations, sorting, and fund management.
+TODO - What is the problem? And where is the challenge?
 
 ## Description
-Spring Boot MVC application using Thymeleaf for server-side rendering and H2 in-memory database. Users can create investments, update investment names, add funds to the pool, view individual investment details, and sort investments by amount or name. A notification toast appears 2 minutes after creating a new investment.
+TODO - How have you solved the problem?
 
 ## Installation
-```
-./mvnw clean install
-```
+TODO - How to install your project? npm install? make? make re?
 
 ## Usage
+TODO - How does it work?
 ```
-java -jar target/portfolio-0.0.1-SNAPSHOT.jar
+./my_project argument1 argument2
 ```
-Then open http://localhost:8080
 
 ### The Core Team
 
